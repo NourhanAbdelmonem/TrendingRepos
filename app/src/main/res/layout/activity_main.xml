@@ -176,6 +176,7 @@
                         app:layout_constraintTop_toBottomOf="@id/something_went_wrong_tv" />
 
                     <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/retryBtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/_16sdp"

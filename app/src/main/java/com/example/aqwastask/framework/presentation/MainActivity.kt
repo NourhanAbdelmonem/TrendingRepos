@@ -62,6 +62,9 @@ class MainActivity : AppCompatActivity() {
         binding.icMore.setOnClickListener {
             showMenu()
         }
+        binding.retryBtn.setOnClickListener {
+            viewModel.getTrendingRepos()
+        }
     }
 
     private fun showMenu() {
